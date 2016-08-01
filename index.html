@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AnalogSea | Account Creation</title>
+
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+  <meta name="description" content="AnalogSea is a cloud computing startup. This is the account creation page.">
+</head>
+<body>
+  <img class="logo" src="images/logo.png" alt="AnalogSea logo">
+
+<form class="sign-up" action="/signup/" method="post">
+  <legend>Sign Up</legend>
+    <label for="user-email">Email</label>
+    <input placeholder="foo@bar.com" type="email" name="user-email" id="user-email" required/>
+
+    <label for="password">Password</label>
+    <input placeholder="1234passw0rd" type="password" name="password" id="password" required/>
+
+  <button type="submit">Sign up</button>
+
+  <p><a href="/forgot/password/new">Forgot password?</a></p>
+</form>
+
+<footer>
+  <p>Already have an account? <a href="/login">Log in</a></p>
+</footer>
+
+
+</body>
+</html>
